@@ -1,0 +1,15 @@
+.hide {
+    display: none;
+}
+
+.hide:hover {
+    display: inline-block;
+}
+
+.myDIV:hover+.hide {
+    display: inline-block;
+}
+
+.myDIV {
+    display: inline-block;
+}
