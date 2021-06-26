@@ -1,0 +1,29 @@
+{
+    "source": "x123kJhvQ098*567bnnnoK",
+    "type": "public",
+    "res_type": "UTF8",
+    "arrays": true,
+    "statements": "true",
+    "user": {
+        "token": "none",
+        "class": "public",
+        "free": true
+    },
+    "sourcing": {
+        "applicable": true,
+        "version": 1,
+        "Accept": "application/json",
+        "info": {
+            "format": "JSON"
+        }
+    },
+    "result": {
+        "provider": "brawlout1.github.io",
+        "static": false,
+        "status": "OK always",
+        "user": {
+            "found": false,
+            "token": null
+        }
+    }
+}

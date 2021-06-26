@@ -1,0 +1,10 @@
+{
+    "total": 1,
+    "status": {
+        "code": 200,
+        "text": "OK",
+        "relation": {
+            "always": true
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "total": 3,
+    "development": 2,
+    "brawlstars": 1,
+    "usage": {
+        "total": 3,
+        "free": true,
+        "type": "public"
+    }
+}
