@@ -3,13 +3,13 @@
 }
 
 .hide:hover {
-    display: inline-block;
+    display: inline;
 }
 
 .myDIV:hover+.hide {
-    display: inline-block;
+    display: inline;
 }
 
 .myDIV {
-    display: inline-block;
+    display: inline;
 }

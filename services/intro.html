@@ -1,0 +1,56 @@
+<head>
+    <head>
+        <title>Brawlout - Services</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/cliplink.css">
+        <link rel="stylesheet" href="../css/scroll.css">
+        <link rel="shortcut icon" type="image/jpg" href="../assets/curved_borders_logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+        <script src="../scripts/keyboadcombos.js" type="text/javascript"></script>
+        <script src="../scripts/searchsend.js" type="text/javascript"></script>
+        <script src="../scripts/detector.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="header">
+            <img src="../assets/curved_borders_logo.png" style="height: 50px; cursor: pointer;" onclick="window.location.replace(`index.html`)">
+            <div class="header-right">
+                <button id="searchbutton" style="background-color: rgb(216, 216, 216); font-family:Verdana; border: none; color: #5865F2; border-radius: 5px; padding: 15px 20px; border: rgb(216, 216, 216) 2px solid;" onclick="sendToPage()"><b>/</b></button>
+            <input type="text" method="put" id="searchbar" placeholder="Search" value="" style="background-color: rgb(216, 216, 216); font-family: Verdana; color: #5865F2; border: none; padding: 15px 20px; border-radius: 5px; border: rgb(216, 216, 216) 2px solid; outline: none;">
+            </div>
+        </div>
+        <p></p>
+        <h1 style="margin-left: 20px; font-family: Bungee; font-size: 40px;" id="using-our-services">Using our services</h1>
+        <p style="margin-left: 20px;">Create more and better using our services with free to use endpoints<br>Don't worry its easy</p>
+        <h1 style="margin-left: 20px; font-family: Bungee; font-size: 40px;" id="how-the-services-work">How the services work</h1>
+        <h2 class="myDiv" style="margin-left: 20px; font-family: Bungee; font-size: 30px;" id="making-requests">
+            Making requests
+        </h2>
+        <span class="hide"><a href="#making-requests"><i class=" fas fa-link" style="font-size: 25px;"></i></a></span>
+        <p style="margin-left: 20px;">To use our services you will need a web server to host your applications<br>No headers are required but you must be granted access before using the service<br>All requests must be posted to our base URL (provided below)</p>
+        <h2 class="myDiv" style="margin-left: 20px; font-family: Bungee; font-size: 30px;" id="response-format-and-status-codes">
+            Response format and status codes
+        </h2>
+        <span class="hide"><a href="#response-format-and-status-codes"><i class=" fas fa-link" style="font-size: 25px;"></i></a></span>
+        <p style="margin-left: 20px;">All service responses are JSON formatted documents with UTF­8 encoded content<br>Only 200 (OK) status code exists, it might be delivered or not</p>
+        <h2 class="myDiv" style="margin-left: 20px; font-family: Bungee; font-size: 30px;" id="service-types">
+            Service types
+        </h2>
+        <span class="hide"><a href="#service-types"><i class=" fas fa-link" style="font-size: 25px;"></i></a></span>
+        <p style="margin-left: 20px;">Existing service version has 2 types: PUBLIC and PRIVATE<br>Both types are free and available to access<br>PUBLIC type is used for fetching brawler stats, gamemodes and maps<br>PRIVATE is used for application development</p>
+        <h2 class="myDiv" style="margin-left: 20px; font-family: Bungee; font-size: 30px;" id="base-url-and-endpoints">
+            Base URL and enpoints
+        </h2>
+        <span class="hide"><a href="#base-url-and-endpoints"><i class=" fas fa-link" style="font-size: 25px;"></i></a></span>
+        <p style="margin-left: 20px;">The base URL of our services is <mark>https://brawlout1.github.io/services/</mark><br>PUBLIC services can be accessed by {base URL}/public and PRIVATE services can be accessed by {base URL}/private<br>Endpoints can be accessed by  {base URL}/{service type}/{endpoint}</p>
+        <h1 style="margin-left: 20px; font-family: Bungee; font-size: 40px;" id="feedback-and-questions">Feedback and questions</h1>
+        <p style="margin-left: 20px;">For queries and feedback related to the services join our <a href="https://discord.gg/XGZzDat3zr">Discord server</a><br>Don't forget to credit Brawlout while using our endpoints</p>
+    </body>
+</head>

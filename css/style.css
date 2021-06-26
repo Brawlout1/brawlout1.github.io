@@ -81,3 +81,10 @@ img {
       float: none;
     }
 }
+
+mark {
+    background: transparent;
+    color: #5865F2;
+    font-family: monospace;
+    font-size: 20px;
+}
